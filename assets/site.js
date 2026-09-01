@@ -1,7 +1,5 @@
 (() => {
   const translations = {
-    'brand.name': { zh: 'Douyue Li', en: 'Douyue Li' },
-    'brand.aria': { zh: '返回首页', en: 'Back to home' },
     'nav.aria': { zh: '站点导航', en: 'Site navigation' },
     'nav.home': { zh: '首页', en: 'Home' },
     'nav.now': { zh: '2023–至今', en: '2023–present' },
@@ -23,7 +21,6 @@
     'overview.platform.body': { zh: '参与或主导多个在线组学分析平台后端开发，强调自动化流程、数据分析与可视化结果整合。', en: 'Contributed to or led backend development for online omics platforms, with emphasis on automated workflows, analysis, and visualization.' },
     'experience.kicker': { zh: 'Experience atlas', en: 'Experience atlas' },
     'experience.title': { zh: '各阶段经历介绍', en: 'Experience by stage' },
-    'experience.lead': { zh: '每张卡片对应一个独立经历页面，展示该阶段的工作内容和项目图像。', en: 'Each card opens a dedicated page with work details and project images from that stage.' },
     'exp.2015.title': { zh: '博士阶段：短串联重复序列研究', en: 'Doctoral stage: short tandem repeat research' },
     'exp.2015.body': { zh: '围绕人类 Y 染色体微卫星分布、短串联重复序列聚集和复制滑移模型展开研究。', en: 'Studied human Y-chromosome microsatellite distribution, short tandem repeat aggregation, and replication slippage models.' },
     'exp.2022.title': { zh: '诺道中科：病原微生物 mNGS 平台', en: 'Novogene: pathogen mNGS platform' },
@@ -55,8 +52,6 @@
     'contact.card.title': { zh: '联系', en: 'Contact details' },
     'contact.email': { zh: '邮箱：', en: 'Email: ' },
     'contact.phone': { zh: '手机：', en: 'Phone: ' },
-    'contact.local.title': { zh: '本地访问', en: 'Local access' },
-    'contact.local.body': { zh: '站点由 nginx 静态托管，监听 127.0.0.1，默认地址为 ', en: 'The site is statically hosted by nginx on 127.0.0.1 at ' },
     'footer.local': { zh: '仅限本机 localhost 访问', en: 'Localhost access only' },
     'footer.home': { zh: '返回首页', en: 'Back to home' },
     'detail.2015.meta': { zh: '2015.09 — 2021.10 · 湖南大学', en: '2015.09 — 2021.10 · Hunan University' },
