@@ -76,26 +76,6 @@ img {
   backdrop-filter: blur(16px);
 }
 
-.brand {
-  display: inline-flex;
-  align-items: center;
-  margin-left: auto;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-}
-
-.brand-mark {
-  min-width: 132px;
-  min-height: 42px;
-  padding: 9px 16px;
-  border-radius: 999px 999px 999px 10px;
-  display: grid;
-  place-items: center;
-  color: #fff;
-  background: linear-gradient(135deg, var(--cyan), var(--blueprint));
-  box-shadow: 0 12px 28px rgba(15, 159, 154, 0.24);
-  white-space: nowrap;
-}
 
 .site-nav {
   display: flex;
