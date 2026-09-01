@@ -76,7 +76,7 @@
     'detail.2022.pathogen.body': { zh: '平台能够基于美国 NIAID、FDA 给定的病原列表和中国病原微生物资源库给定的病原列表进行筛选。', en: 'The platform filters against pathogen lists from the U.S. NIAID and FDA as well as the China Pathogen Microbiology Resource Bank.' },
     'detail.2022.status.title': { zh: '阶段状态', en: 'Stage status' },
     'detail.2022.status.body': { zh: '流程进入测试阶段；原计划进一步自建微生物鉴别数据库和地方特异病原列表数据库，并实现报告化处理。', en: 'The workflow entered testing, with planned extensions for custom microbial identification databases, locally specific pathogen lists, and report generation.' },
-    'detail.2022.figure.body': { zh: '病原微生物 mNGS 分析平台相关流程与页面截图。', en: 'Workflow and interface screenshots for the pathogen mNGS analysis platform.' },
+    'detail.2022.figure.body': { zh: '病原微生物 mNGS 分析平台相关流程。', en: 'Workflow and interface screenshots for the pathogen mNGS analysis platform.' },
     'detail.2023.meta': { zh: '2022.12 — 2023.06 · 博奥生物集团有限公司', en: '2022.12 — 2023.06 · CapitalBio Technology Group' },
     'detail.2023.title': { zh: '中药开发相关多组学分析', en: 'Multi-omics analysis for traditional Chinese medicine development' },
     'detail.2023.lead': { zh: '该阶段主要围绕中药和对症疾病相关的转录组组学分析、芯片数据分析和各类生信需求展开，强调数据处理、富集分析、网络分析和方剂评价。', en: 'This stage centered on transcriptomic analysis, microarray analysis, and bioinformatics tasks related to traditional Chinese medicine and associated diseases, emphasizing data processing, enrichment analysis, network analysis, and prescription evaluation.' },
@@ -88,7 +88,7 @@
     'detail.2023.geo.body': { zh: '完成基于 GEO 数据的 PCA、t-SNE、样本相关性、GO 富集、KEGG 通路富集、GSEA 分析等工作。', en: 'Completed GEO-based PCA, t-SNE, sample correlation, GO enrichment, KEGG pathway enrichment, and GSEA analyses.' },
     'detail.2023.prescription.title': { zh: '方剂评价', en: 'Prescription evaluation' },
     'detail.2023.prescription.body': { zh: '基于公司开发的中药方剂逆转效果评价算法，进行不同组成成分的方剂评价。', en: 'Evaluated prescriptions with different compositions using the company-developed reversal-effect evaluation algorithm.' },
-    'detail.2023.figure.body': { zh: '中药开发相关组学分析、富集分析和结果展示截图。', en: 'Screenshots of omics analysis, enrichment analysis, and result presentation for traditional Chinese medicine development.' },
+    'detail.2023.figure.body': { zh: '中药开发相关组学分析、富集分析和结果展示。', en: 'Overview of omics analysis, enrichment analysis, and result presentation for traditional Chinese medicine development.' },
     'detail.now.meta': { zh: '2023.08 — 至今 · 广州医科大学', en: '2023.08 — present · Guangzhou Medical University' },
     'detail.now.title': { zh: '临床多组学分析、肝癌研究与在线平台后端开发', en: 'Clinical multi-omics, liver cancer research, and online platform backend development' },
     'detail.now.lead': { zh: '当前阶段重点从事肝癌组学临床研究，围绕非经典开放阅读框翻译蛋白进行多维特征分析，同时主导多个在线组学分析平台后端开发。', en: 'Current work focuses on clinical omics research in liver cancer, multidimensional feature analysis of noncanonical ORF-translated proteins, and backend development for online omics analysis platforms.' },
@@ -104,8 +104,8 @@
     'detail.now.backend.body': { zh: '主导 ExpOmics 和 circMine v2 等组学分析平台后端开发工作。ExpOmics 已发表于 Bioinformatics，circMine v2 待发表。', en: 'Leads backend development for omics analysis platforms including ExpOmics and circMine v2. ExpOmics has been published in Bioinformatics, and circMine v2 is under publication.' },
     'detail.now.figure.1': { zh: '肝癌相关非经典开放阅读框研究与多维特征分析展示。', en: 'Display of liver cancer-related noncanonical ORF research and multidimensional feature analysis.' },
     'detail.now.figure.2': { zh: '候选分子与单细胞转录组联合分析相关结果展示。', en: 'Results from integrated analysis of candidate molecules and single-cell transcriptomic data.' },
-    'detail.now.figure.3': { zh: '多组学表达数据标准化与探索分析平台截图。', en: 'Screenshot of a platform for multi-omics expression data standardization and exploratory analysis.' },
-    'detail.now.figure.4': { zh: 'circMine v2 平台截图。', en: 'Screenshot of the circMine v2 platform.' }
+    'detail.now.figure.3': { zh: '多组学表达数据标准化与探索分析平台。', en: 'Overview of a platform for multi-omics expression data standardization and exploratory analysis.' },
+    'detail.now.figure.4': { zh: 'circMine v2 平台首页。', en: 'Homepage of the circMine v2 platform.' }
   };
 
   const pageMeta = {
