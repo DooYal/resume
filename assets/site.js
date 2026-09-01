@@ -66,7 +66,7 @@
     'detail.2015.model.body': { zh: '研究短串联重复序列产生机理，提出相对半保留学说和折叠复制滑移模型，用于解释基因组扩增与短串联重复序列普遍存在的现象。', en: 'Studied mechanisms of short tandem repeat formation and proposed the relatively semi-conservative replication hypothesis and folded slippage model to explain genomic amplification and the broad presence of STRs.' },
     'detail.related.title': { zh: '相关论文', en: 'Related publications' },
     'detail.2015.figure.label': { zh: 'Research figure', en: 'Research figure' },
-    'detail.2015.figure.body': { zh: '短串联重复序列微分算法、图谱展示与折叠复制滑移模型示意。', en: 'Differential algorithms, landscape visualization, and folded replication slippage model for short tandem repeats.' },
+    'detail.2015.figure.body': { zh: '短串联重复序列图谱展示与折叠复制滑移模型示意。', en: 'Landscape visualization and folded replication slippage model for short tandem repeats.' },
     'detail.2022.meta': { zh: '2021.12 — 2022.11 · 诺道中科（北京）生物科技有限公司', en: '2021.12 — 2022.11 · Novogene Bioinformatics Technology Co., Ltd.' },
     'detail.2022.title': { zh: '病原微生物二代测序分析平台开发', en: 'Pathogen mNGS analysis platform development' },
     'detail.2022.lead': { zh: '该阶段聚焦感染宏基因组二代测序 mNGS 分析检测病原微生物平台，目标是把样本处理、质控、去宿主、分类鉴定和病原筛选串联成自动化流程。', en: 'This stage focused on a pathogen detection platform for infection metagenomic next-generation sequencing, connecting sample processing, quality control, host removal, taxonomic identification, and pathogen filtering into an automated workflow.' },
@@ -76,7 +76,7 @@
     'detail.2022.pathogen.body': { zh: '平台能够基于美国 NIAID、FDA 给定的病原列表和中国病原微生物资源库给定的病原列表进行筛选。', en: 'The platform filters against pathogen lists from the U.S. NIAID and FDA as well as the China Pathogen Microbiology Resource Bank.' },
     'detail.2022.status.title': { zh: '阶段状态', en: 'Stage status' },
     'detail.2022.status.body': { zh: '流程进入测试阶段；原计划进一步自建微生物鉴别数据库和地方特异病原列表数据库，并实现报告化处理。', en: 'The workflow entered testing, with planned extensions for custom microbial identification databases, locally specific pathogen lists, and report generation.' },
-    'detail.2022.figure.body': { zh: '病原微生物 mNGS 分析平台相关流程。', en: 'Workflow and interface screenshots for the pathogen mNGS analysis platform.' },
+    'detail.2022.figure.body': { zh: '病原微生物 mNGS 分析平台相关流程。', en: 'Workflow for the pathogen mNGS analysis platform.' },
     'detail.2023.meta': { zh: '2022.12 — 2023.06 · 博奥生物集团有限公司', en: '2022.12 — 2023.06 · CapitalBio Technology Group' },
     'detail.2023.title': { zh: '中药开发相关多组学分析', en: 'Multi-omics analysis for traditional Chinese medicine development' },
     'detail.2023.lead': { zh: '该阶段主要围绕中药和对症疾病相关的转录组组学分析、芯片数据分析和各类生信需求展开，强调数据处理、富集分析、网络分析和方剂评价。', en: 'This stage centered on transcriptomic analysis, microarray analysis, and bioinformatics tasks related to traditional Chinese medicine and associated diseases, emphasizing data processing, enrichment analysis, network analysis, and prescription evaluation.' },
@@ -104,8 +104,8 @@
     'detail.now.backend.body': { zh: '主导 ExpOmics 和 circMine v2 等组学分析平台后端开发工作。ExpOmics 已发表于 Bioinformatics，circMine v2 待发表。', en: 'Leads backend development for omics analysis platforms including ExpOmics and circMine v2. ExpOmics has been published in Bioinformatics, and circMine v2 is under publication.' },
     'detail.now.figure.1': { zh: '肝癌相关非经典开放阅读框研究与多维特征分析展示。', en: 'Display of liver cancer-related noncanonical ORF research and multidimensional feature analysis.' },
     'detail.now.figure.2': { zh: '候选分子与单细胞转录组联合分析相关结果展示。', en: 'Results from integrated analysis of candidate molecules and single-cell transcriptomic data.' },
-    'detail.now.figure.3': { zh: '多组学表达数据标准化与探索分析平台。', en: 'Overview of a platform for multi-omics expression data standardization and exploratory analysis.' },
-    'detail.now.figure.4': { zh: 'circMine v2 平台首页。', en: 'Homepage of the circMine v2 platform.' }
+    'detail.now.figure.3': { zh: 'ExpOmics首页概览。', en: 'Homepage of a the ExpOmics.' },
+    'detail.now.figure.4': { zh: 'circMine v2首页概览。', en: 'Homepage of the circMine v2.' }
   };
 
   const pageMeta = {
