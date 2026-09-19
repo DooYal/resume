@@ -21,13 +21,19 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Download Release Asset
+        uses: robinraju/release-downloader@v1
+        with:
+          # 下载最新 Release 中所有以 .zip 结尾的文件
+          # 如果你的压缩包名称固定，可以写成 fileName: 'your-file.zip'
+          latest: true
+          fileName: "*.zip"
+          out-file-path: "downloaded-artifact"
+          extract: true  # 关键：自动解压
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
-          # 关键修改：指定项目站点的子路径
           # 对于仓库 DooYal/resume，站点地址为 https://dooyal.github.io/resume/
           # 因此 base_path 应为 /resume
           base_path: /${{ github.event.repository.name }}
@@ -35,8 +41,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 静态文件在仓库根目录，保持不变
-          path: .
+          # 上传解压后的目录内容
+          path: "downloaded-artifact"
 
       - name: Deploy to GitHub Pages
         id: deployment
