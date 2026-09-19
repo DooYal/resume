@@ -26,12 +26,16 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          # 关键修改：指定项目站点的子路径
+          # 对于仓库 DooYal/resume，站点地址为 https://dooyal.github.io/resume/
+          # 因此 base_path 应为 /resume
+          base_path: /${{ github.event.repository.name }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 如果静态网页就在根目录，用 .
-          # 如果是构建产物，改成 ./dist 或 ./public
+          # 静态文件在仓库根目录，保持不变
           path: .
 
       - name: Deploy to GitHub Pages
