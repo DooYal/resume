@@ -54,6 +54,8 @@
     'contact.phone': { zh: '手机：', en: 'Phone: ' },
     'footer.local': { zh: '仅限本机 localhost 访问', en: 'Localhost access only' },
     'footer.home': { zh: '返回首页', en: 'Back to home' },
+    'footer.views': { zh: '访问量：', en: 'Views: ' },
+    'footer.credit': { zh: '本站由 Claude Code 制作', en: 'Built with Claude Code' },
     'detail.2015.meta': { zh: '2015.09 - 2021.10 · 湖南大学', en: '2015.09 - 2021.10 · Hunan University' },
     'detail.2015.title': { zh: '短串联重复序列研究与微卫星图谱构建', en: 'Short tandem repeat research and microsatellite landscape construction' },
     'detail.2015.lead': { zh: '博士阶段以基因组微卫星序列为主要研究对象，重点分析人类 Y 染色体参考序列上短串联重复序列的分布特征，并围绕短串联重复序列产生机理提出模型解释。', en: 'During the doctoral stage, research focused on genomic microsatellites, especially the distribution of short tandem repeats on the human Y-chromosome reference sequence and mechanistic models for their formation.' },
