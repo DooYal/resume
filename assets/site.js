@@ -178,6 +178,30 @@
 
   applyLanguage(getLanguage());
 
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const hero = document.querySelector('.hero');
+  const sequenceRail = document.querySelector('.sequence-rail');
+  if (hero && sequenceRail && !reduceMotion && 'IntersectionObserver' in window) {
+    const heroObserver = new IntersectionObserver(([entry]) => {
+      sequenceRail.classList.toggle('is-active', entry.isIntersecting);
+    }, { threshold: 0.35 });
+    heroObserver.observe(hero);
+  }
+
+  if (!reduceMotion && 'IntersectionObserver' in window) {
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.work-card, .card, .paper, .figure-card').forEach((element) => {
+      element.classList.add('reveal-ready');
+      revealObserver.observe(element);
+    });
+  }
+
   const previewableImages = document.querySelectorAll('.work-card img, .figure-card img');
   if (!previewableImages.length) return;
 
