@@ -38,7 +38,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--coral); outline
 img { display: block; max-width: 100%; }
 .page { width: min(1180px, calc(100% - 36px)); margin: 0 auto; padding: 22px 0 64px; }
 .site-header { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 18px; min-height: 60px; margin-bottom: 18px; padding: 10px 0; background: rgba(244,247,245,.9); border-bottom: 1px solid transparent; backdrop-filter: blur(14px); }
-.site-header::before { content: "DL / BIOCOMPUTATION"; flex: 1; color: var(--ink); font: 800 .72rem/1 var(--mono); letter-spacing: .12em; }
 .site-nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px; }
 .site-nav a, .language-toggle, .link-pill { display: inline-flex; align-items: center; justify-content: center; min-height: 34px; padding: 6px 10px; border: 1px solid transparent; border-radius: var(--radius); color: var(--ink-soft); font: 700 .78rem/1 var(--mono); letter-spacing: .02em; }
 .site-nav a:hover, .site-nav a[aria-current="page"], .language-toggle:hover, .link-pill:hover { color: var(--ink); border-color: var(--line-strong); background: var(--panel); }
@@ -46,7 +45,7 @@ img { display: block; max-width: 100%; }
 .brand { color: var(--cyan-deep); font: 800 .72rem/1 var(--mono); letter-spacing: .08em; }
 .hero, .detail-hero { position: relative; overflow: hidden; border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--panel); box-shadow: var(--shadow); }
 .hero::before, .detail-hero::before { content: "SYSTEM / PERSONAL RESEARCH PROFILE"; position: absolute; top: 18px; right: 24px; color: var(--muted); font: 700 .62rem/1 var(--mono); letter-spacing: .13em; }
-.hero-grid { position: relative; display: grid; grid-template-columns: minmax(0,1fr) 292px; gap: 48px; align-items: center; min-height: 450px; padding: clamp(34px,6vw,72px); }
+.hero-grid { position: relative; display: grid; grid-template-columns: minmax(0,1fr) 292px; gap: 48px; align-items: center; padding: clamp(34px,6vw,58px); }
 .eyebrow { display: inline-flex; align-items: center; gap: 9px; color: var(--cyan-deep); font: 800 .72rem/1.2 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
 .eyebrow::before { content: ""; width: 22px; height: 2px; background: var(--coral); }
 h1, h2, h3, p { margin: 0; }
@@ -60,7 +59,6 @@ h3 { font: 800 1.05rem/1.28 var(--display); }
 .primary-link:hover { color: #fff; background: var(--cyan-deep); border-color: var(--cyan-deep); }
 .profile-card { position: relative; }
 .portrait-frame { position: relative; z-index: 1; width: 178px; margin-left: auto; padding: 8px; border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--panel-soft); }
-.portrait-frame::after { content: "PORTRAIT / 01"; position: absolute; right: -39px; bottom: 28px; color: var(--coral); font: 700 .62rem/1 var(--mono); transform: rotate(90deg); }
 .portrait-frame img { width: 100%; aspect-ratio: 25/35; object-fit: cover; border-radius: 2px; filter: saturate(.82) contrast(1.04); }
 .sequence-rail { position: absolute; inset: 42px 26px 26px auto; width: 72px; border-left: 1px solid var(--line-strong); }
 .sequence-rail::before, .sequence-rail::after { content: ""; position: absolute; left: -5px; width: 9px; height: 9px; border: 2px solid var(--cyan); border-radius: 50%; background: var(--panel); }
@@ -128,7 +126,6 @@ h3 { font: 800 1.05rem/1.28 var(--display); }
 .section:nth-of-type(3) { animation-delay: .12s; }
 @media (max-width: 920px) {
   .site-header { align-items: flex-start; flex-wrap: wrap; }
-  .site-header::before { flex-basis: 100%; }
   .site-nav { justify-content: flex-start; }
   .hero-grid { grid-template-columns: minmax(0,1fr) 200px; gap: 28px; }
   .sequence-rail { right: 13px; }
@@ -144,7 +141,7 @@ h3 { font: 800 1.05rem/1.28 var(--display); }
   .site-nav { gap: 2px; }
   .site-nav a, .language-toggle { padding: 6px 7px; font-size: .68rem; }
   .hero::before, .detail-hero::before { right: 15px; font-size: .52rem; }
-  .hero-grid { display: block; min-height: 0; padding: 34px 24px 28px; }
+  .hero-grid { display: block; padding: 34px 24px 28px; }
   h1, .display { max-width: 10ch; font-size: clamp(3rem,17vw,5rem); }
   .profile-card { margin: 30px 0 0; }
   .portrait-frame { width: 142px; margin-left: 0; }
