@@ -55,6 +55,8 @@
     'footer.local': { zh: '仅限本机 localhost 访问', en: 'Localhost access only' },
     'footer.home': { zh: '返回首页', en: 'Back to home' },
     'footer.views': { zh: '访问量：', en: 'Views: ' },
+    'footer.views.alt': { zh: '访问量统计', en: 'Page view counter' },
+    'footer.ip': { zh: '当前访问 IP：', en: 'Current visitor IP: ' },
     'footer.credit': { zh: '本站由 Claude Code + Codex 制作', en: 'Built with Claude Code + Codex' },
     'detail.2015.meta': { zh: '2015.09 - 2021.10 · 湖南大学', en: '2015.09 - 2021.10 · Hunan University' },
     'detail.2015.title': { zh: '短串联重复序列研究与微卫星图谱构建', en: 'Short tandem repeat research and microsatellite landscape construction' },
@@ -177,6 +179,17 @@
   }
 
   applyLanguage(getLanguage());
+
+  const visitorIp = document.querySelector('#visitor-ip');
+  if (visitorIp) {
+    fetch('https://api64.ipify.org?format=json', { cache: 'no-store' })
+      .then((response) => {
+        if (!response.ok) throw new Error('IP service unavailable');
+        return response.json();
+      })
+      .then((data) => { visitorIp.textContent = data.ip || '--'; })
+      .catch(() => { visitorIp.textContent = '--'; });
+  }
 
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const hero = document.querySelector('.hero');
